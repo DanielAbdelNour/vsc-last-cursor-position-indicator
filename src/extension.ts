@@ -28,8 +28,8 @@ const startExtension = (context: vscode.ExtensionContext) => {
 
     const position = activeEditor.selection.active;
 
-    // return if the position hasn't changed by more than a linebuffer lines
-    if (Math.abs(position.line - prevPosition.line) > minDist === false) {
+    // return if the position hasn't changed by more than the minDist lines
+    if (Math.abs(position.line - prevPosition.line) < minDist) {
       return;
     }
 
