@@ -1,4 +1,4 @@
-# Last Cursor Position Indicator
+# Last Cursor Position Indicator - Visual Studio Code Extension
 
 Show your last cursor position in the right hand side gutter for quick visual navigation
 
